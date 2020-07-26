@@ -1,0 +1,26 @@
+{
+  "name": "node-mentoring-program",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "test",
+    "task1": "nodemon src/task1/task1.js",
+    "task2": "node src/task1/task2.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/litwin90/NodeMentoringProgram.git"
+  },
+  "author": "Dzianis Davydau",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/litwin90/NodeMentoringProgram/issues"
+  },
+  "homepage": "https://github.com/litwin90/NodeMentoringProgram#readme",
+  "dependencies": {},
+  "devDependencies": {
+    "nodemon": "^2.0.4",
+    "prettier": "^2.0.5"
+  }
+}
