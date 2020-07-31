@@ -1,4 +1,4 @@
-const { promises } = require('fs');
+import { promises } from 'fs';
 
 const inputDirPath = './src/task1/stdin';
 const outputDirPath = './src/task1/stdout';
