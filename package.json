@@ -6,7 +6,7 @@
   "scripts": {
     "test": "test",
     "task1": "nodemon src/task1/task1.js",
-    "task2": "node src/task1/task2.js"
+    "task2": "nodemon src/task2/task2.js"
   },
   "repository": {
     "type": "git",
@@ -18,7 +18,9 @@
     "url": "https://github.com/litwin90/NodeMentoringProgram/issues"
   },
   "homepage": "https://github.com/litwin90/NodeMentoringProgram#readme",
-  "dependencies": {},
+  "dependencies": {
+    "csvtojson": "^2.0.10"
+  },
   "devDependencies": {
     "nodemon": "^2.0.4",
     "prettier": "^2.0.5"

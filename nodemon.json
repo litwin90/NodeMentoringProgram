@@ -7,6 +7,8 @@
     "restartable": "rs",
     "watch": [
         "stdin",
-        "task1.js"
+        "task1.js",
+        "task2.js",
+        "csvInput.csv"
     ]
 }
