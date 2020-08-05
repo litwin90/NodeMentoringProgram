@@ -1,0 +1,32 @@
+{
+  "name": "node-mentoring-program",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "test",
+    "task1": "nodemon --exec babel-node src/task1/task1.js",
+    "task2": "nodemon --exec babel-node src/task2/task2.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/litwin90/NodeMentoringProgram.git"
+  },
+  "author": "Dzianis Davydau",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/litwin90/NodeMentoringProgram/issues"
+  },
+  "homepage": "https://github.com/litwin90/NodeMentoringProgram#readme",
+  "dependencies": {
+    "csvtojson": "^2.0.10"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.10.5",
+    "@babel/core": "^7.11.0",
+    "@babel/node": "^7.10.5",
+    "@babel/preset-env": "^7.11.0",
+    "nodemon": "^2.0.4",
+    "prettier": "^2.0.5"
+  }
+}

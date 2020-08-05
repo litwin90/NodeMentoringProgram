@@ -1,0 +1,13 @@
+{
+    "env": {
+        "ENV": "development",
+        "HOST": "localhost",
+        "PORT": "4000"
+    },
+    "restartable": "rs",
+    "watch": [
+        "task1.js",
+        "task2.js",
+        "csvInput.csv"
+    ]
+}
